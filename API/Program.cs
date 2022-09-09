@@ -11,6 +11,7 @@ using API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using API.Entities;
+//AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 namespace API
 {
